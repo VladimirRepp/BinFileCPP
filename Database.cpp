@@ -230,9 +230,6 @@ void Database::Sort()
 				save.write((char*)&buf, sizeof(Data));
 			}
 		}
-
-		Print();
-		cout << endl;
 	}
 
 	save.close();
