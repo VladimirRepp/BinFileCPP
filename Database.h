@@ -10,7 +10,7 @@ using namespace std;
 
 #define _CRT_SECURE_NO_WARNINGS
 
-// Структура данных
+// РЎС‚СЂСѓРєС‚СѓСЂР° РґР°РЅРЅС‹С…
 struct Data
 {
 	char str[50];
@@ -20,14 +20,14 @@ struct Data
 
 class Database
 {
-	// Поля класса
-private: // закрытая часть
+	// РџРѕР»СЏ РєР»Р°СЃСЃР°
+private: // Р·Р°РєСЂС‹С‚Р°СЏ С‡Р°СЃС‚СЊ
 	Data data;
 	string fname;
 	size_t count;
 
-	// Методы класса
-public: // открытая часть
+	// РњРµС‚РѕРґС‹ РєР»Р°СЃСЃР°
+public: // РѕС‚РєСЂС‹С‚Р°СЏ С‡Р°СЃС‚СЊ
 	Database();
 	~Database();
 
